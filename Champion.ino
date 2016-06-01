@@ -1,3 +1,5 @@
+// A simple reactivity game inspired by the swedish tv-show 'Mästarnas mästare'
+
 //#include <TimerOne.h>
 #include <RBD_Timer.h>
 #include <RBD_Button.h>
@@ -5,13 +7,6 @@
 #include <elapsedMillis.h>
 
 
-//Example to control LPD6803-based RGB LED Modules in a strand
-// Original code by Bliptronics.com Ben Moyes 2009
-//Use this as you wish, but please give credit, or at least buy some of my LEDs!
-
-// Code cleaned up and Object-ified by ladyada, should be a bit easier to use
-
-/*****************************************************************************/
 
 enum Stage
 {
